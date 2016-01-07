@@ -6,6 +6,9 @@ it provides:
  - support AutoLayou
  
 # How to use
-    #import "TagLableView.h"
-    TagLableView *labelView = [[TagLableView alloc] initWithFrame:CGRectMake(20, 10, 300, 300) title:@"title" titleFont:[UIFont systemFontOfSize:14] tagArray:array];
-    labelView.delegate = self;
+
+``` objective-c
+#import "TagLableView.h"
+TagLableView *labelView = [[TagLableView alloc] initWithFrame:CGRectMake(20, 10, 300, 300) title:@"title" titleFont:[UIFont systemFontOfSize:14] tagArray:array];
+labelView.delegate = self;
+```
